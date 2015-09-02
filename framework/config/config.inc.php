@@ -21,6 +21,9 @@ $_C['DEBUG'] = TRUE;
 //encoded
 $_C['ENCODED'] = 'UTF-8';
 
+//default class name
+$_C['CLASS'] = 'Home';
+
 //Converts the constants array into actual constants
 foreach($_C as $constant=>$value){
 	define($constant,$value);

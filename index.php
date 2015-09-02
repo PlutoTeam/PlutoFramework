@@ -50,3 +50,4 @@ spl_autoload_register('classAutoloader');
 
 //require route function
 require_once FW_PATH . '/core/route.fun.php';
+require_once FW_PATH . '/core/route.inc.php';
