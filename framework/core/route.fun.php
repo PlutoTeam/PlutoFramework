@@ -2,8 +2,7 @@
 	/**
 	  * PlutoFramework
 	  * Function:Route
-	  * Breaks the URL into an array at the slashes
-	  * @return array
+      * @author Alien <a457418121@gmail.com>
 	  */
 	  
 function parseUri(){
@@ -39,8 +38,8 @@ function classAutoloader($className){
 
     $classLocations = array(
         FW_PATH . '/core/class.' . $fname . '.php',
-        FW_PATH . '/models/class.' . $fname . '.php',
-        FW_PATH . '/controllers/class.' . $fname . '.php',
+        FW_PATH . '/model/class.' . $fname . '.php',
+        FW_PATH . '/controller/class.' . $fname . '.php',
     );
 
     //loop through the location array and checks for a file to load
