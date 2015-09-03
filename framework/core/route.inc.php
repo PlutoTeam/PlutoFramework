@@ -1,6 +1,7 @@
 <?php 
 	/**
 	  * PlutoFramework
+      * @author Alien <a457418121@gmail.com>
 	  */
 
 //parses the URI
