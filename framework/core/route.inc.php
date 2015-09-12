@@ -1,7 +1,7 @@
-<?php 
+<?php
 	/**
 	  * PlutoFramework
-      * @author Alien <a457418121@gmail.com>
+    * @author Alien <a457418121@gmail.com>
 	  */
 
 //parses the URI
@@ -16,7 +16,7 @@ if(empty($className)){
 try{
     $controller = new $className($uriArray);
 }catch (exception $error){
-    $uriArray[1] = $error->getErrorMessage();
+    $uriArray[1] = $error->getMessage();
     $controller = new Error($uriArray);
 }
 
